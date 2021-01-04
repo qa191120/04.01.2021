@@ -1,0 +1,10 @@
+Targil:
+1. Create a function that prints "hello world" , call it from main
+2. Create a function that prints all numbers from 1 to 100, call it from main
+3. Create a function that inputs a number and prints if the number is even (zugi) or not, call it from main
+4. **etgar: input the number from main instead of inside the function
+5. what is the difference betwene "step over" and "step into" ?
+6. if you define int x inside main and int x inside a function , it is the same x? why?
+7. ***etgarCreate function A() and call it from main, inside function A() call function B(), inside function B() call function A()
+   what happend? why do you think?
+   
