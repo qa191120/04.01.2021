@@ -1,32 +1,58 @@
 package com.company;
 
-import java.util.Random;
-import java.util.Scanner;
-
 public class Main
 {
     // 1
     public static void main(String[] args)  {
 
         wakeUpInTheMorning();
-        //GoToCar();
-        //driveToWork();
-        //goToDinner();
-        //goToMovie();
-        //goToSleep();
+        goToCar();
+        driveToWork();
+        goToDinner();
+        goToMovie();
+        goToSleep();
 
-        // 1 extract methods auto for all except 1
-        // 1.1 write yourslef one method
-        // 2. add println inside ach method (be original)
-        // 3. debug using step over and step into
-        // 4. inside main write 3 lines of code , for example
-        //     input a number and print it
-        //     then ... select the 3 lines of code
-        //     and extract a methods from them...
+        print1To10();
+        print10To20();
+        driveToWork();
+    }
+
+    private static void print1To10() {
+        for (int index = 1; index <= 10; index++)
+        {
+            System.out.println(index);
+        }
+    }
+
+    private static void print10To20() {
+        for (int index = 10; index <= 20; index++)
+        {
+            System.out.println(index);
+        }
+    }
+    
+    private static void goToSleep() {
+        System.out.println("ZzzzzZzzzzz...");
+    }
+
+    private static void goToMovie() {
+        System.out.println("First popcorn...");
+    }
+
+    private static void goToDinner() {
+        System.out.println("yum yum yum ");
+    }
+
+    private static void driveToWork() {
+        System.out.println("beep beep");
+    }
+
+    private static void goToCar() {
+        System.out.println("turn off alaram");
     }
 
     private static void wakeUpInTheMorning() {
-        System.out.println("Waking up ... i'm so tired...");
+        System.out.println("Snoozee ...");
     }
 
 
